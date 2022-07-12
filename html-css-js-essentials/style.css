@@ -1,5 +1,21 @@
-h1 {
-    font-family: monospace, sans-serif;
-    font-size: 20px;
-}
- 
+/* 
+    Seletores
+
+    * => seletor universal (seleciona o documento inteiro)
+    #algumId => seletor por id
+    .algumaClasse ou elemento.algumaClasse => seletor por classe
+    h1 => seleciona todos os h1 do documento
+    h1, h2 => seleciona todos os [ h1 e h2 ] do documento
+    li a => seletor descendente: seleciona todos os <a> dentro de um <li>
+    h1 + p => seletor adjacente: seleciona todos os <p> que são imediatamente precedidos(não aninhados) por <h1>
+    div > li => filho direto: seleciona somente os <li> que são filhos diretos de um <div>
+    input[type="text"] => seletor de atributo: seleciona todos os inputs com o atributo definidos como texto.
+*/
+
+/* 
+    Pseudo classes: palavra-chave adicionada a um seletor que especifica um estado especial do elemento selecionado
+    
+    a:hover => aplica algum estilo quando o cursor passar em cima de todos os <a>.
+     
+
+*/

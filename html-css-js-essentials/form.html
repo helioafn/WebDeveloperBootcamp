@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="utf-8">
+    <title>HTML Forms</title>
+</head>
+<body>
+    <form>
+        <fieldset>
+            <legend>Race Registration</legend>
+            <label for="first-name">First Name</label>
+            <input type="text" id="first-name" name="firstName" required>
+            
+            <label for="last-name">Last Name</label>
+            <input type="text" id="last-name" name="lastName" required>
+        </fieldset>
+        <fieldset>
+            <legend>Select a race</legend>
+            <input type="radio" id="run5k" name="race-type" value="run5k">
+            <label for="run5k">Fun Run 5k</label>
+            
+            <input type="radio" id="halfMarathon" name="race-type" value="halfMarathon">
+            <label for="halfMarathon">Half Marathon</label>
+
+            <input type="radio" id="fullMarathon" name="race-type" value="fullMarathon">
+            <label for="fullMarathon">Full Marathon</label>
+
+            <select>
+                <option selected disabled>Choose your age</option>
+                <option>under 18</option>
+                <option>18-30</option>
+                <option>30-50</option>
+                <option>50+</option>
+            </select>
+        </fieldset>
+        <fieldset>
+            <legend>Login creation</legend>
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="password">Password</label>
+            <input type="password" id="password" name="password" required>
+        </fieldset>
+
+        <button type="submit">Register</button>
+    </form>
+</body>
+</html>

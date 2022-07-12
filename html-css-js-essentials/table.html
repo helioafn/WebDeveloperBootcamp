@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="utf-8">
+    <title>HTML Tables</title>
+    <style>
+        td {
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>JavaScript type conversions</h1>
+    <table>
+        <thead>
+            <tr>
+                <th>left operand</th>
+                <th>operator</th>
+                <th>right operand</th>
+                <th>result</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>[] (empty array)</td>
+                <td>+</td>
+                <td>[] (empty array)</td>
+                <td>"" (empty string)</td>
+            </tr>
+            <tr>
+                <td>[] (empty array)</td>
+                <td>+</td>
+                <td>{} (empty object)</td>
+                <td>"[object Object]" (string)</td>
+            </tr>
+            <tr>
+                <td>false (boolean)</td>
+                <td>+</td>
+                <td>[] (empty array)</td>
+                <td>"false" (string)</td>
+            </tr>
+            <tr>
+                <td>"123" (string)</td>
+                <td>+</td>
+                <td>1 (number)</td>
+                <td>"1231" (string)</td>
+            </tr>
+            <tr>
+                <td>"123" (string)</td>
+                <td>-</td>
+                <td>1 (number)</td>
+                <td>122 (number)</td>
+            </tr>
+            <tr>
+                <td>"123" (string)</td>
+                <td>-</td>
+                <td>"abc"</td>
+                <td>NaN (number)</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+
+</html>
