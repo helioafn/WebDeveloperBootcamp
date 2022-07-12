@@ -16,6 +16,21 @@
     Pseudo classes: palavra-chave adicionada a um seletor que especifica um estado especial do elemento selecionado
     
     a:hover => aplica algum estilo quando o cursor passar em cima de todos os <a>.
-     
+    a:active => aplica algum estilo quando o elemento for ativado (ex.: clicando no link (<a>)).
+    input[type="text"]:focus => aplica algum estilo quando o elemento é focado
+    :checked => aplica algum estilo quando botões radio ou checkboxes são ligados (selecionados).
+    a:nth-of-type(An+B | even | odd) => aplica estilo a todos os <a> baseado na sua posição no documento 
+    entre irmãos do mesmo tipo (tag). even -> todos os pares, odd -> todos os ímpares, An+B -> posições específicas.
+*/
+
+/* 
+    Pseudo-elementos: palavra-chave adicionada a um seletor que permite estilizar uma parte particular do elemento
+    selecionado.
+
+    ::after =>
+    ::before =>
+    ::first-letter =>
+    ::first-line =>
+    ::selection => 
 
 */
