@@ -27,10 +27,19 @@
     Pseudo-elementos: palavra-chave adicionada a um seletor que permite estilizar uma parte particular do elemento
     selecionado.
 
-    ::after =>
+    ::after => 
     ::before =>
-    ::first-letter =>
-    ::first-line =>
-    ::selection => 
+    ::first-letter => aplica estilo a primeira letra de uma linha de um elemento block, mas somente quando não é 
+    precedido por outro conteúdo (como tabelas ou imagens).
+    ::first-line => aplica estilo a primeira linha de um elemento block.
+    ::selection => aplica estilo a parte do documento que está sendo destacada pelo usuário (como clicando e arrastando
+    o mouse pelo texto).
 
+*/
+
+/* 
+    Especificidade CSS: é como o navegador quais estilos aplicar quando tiver confronto entre multiplas regras para
+    estilizar o mesmo elemento.
+    * é a medida de quão específico é um seletor. O seletor mais específico é aplicado.
+    Regra geral: estilos inline > id > class, atributo e seletores de pseudo-classes > elementos e seletores de pseudo-elementos
 */

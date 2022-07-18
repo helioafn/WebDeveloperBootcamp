@@ -1,0 +1,39 @@
+/* 
+    CSS Box Model
+    Ideia de que tudo em CSS é uma caixa
+    
+     Border (propriedades importantes): border-width, border-color, border-style
+        |    
+        |
+        V
+    __________________
+    |                |
+    |    content     |
+    |                |
+    |                |
+    ------------------
+
+
+    propriedades comuns de content: width, height
+    essas definem a altura e largura do conteúdo em si.
+
+
+    # Border:
+    ** box-sizing: border-box vs content-box.
+     border-box inclui a borda no espaço definido (width & height) ao invés de adicioná-la depois. content-box usa o espaço definido inteiro para o conteúdo. 
+    border-radius: arredonda os cantos de uma borda.
+*/
+
+div {
+    width: 200px;
+    height: 200px;
+    background-color: chocolate;
+    /* border-width: 3px;
+    border-color: royalblue;
+    border-style: dotted; */
+    
+    /* border: width | style | color */
+    border: 3px dotted royalblue;
+    
+    box-sizing: border-box; 
+}
